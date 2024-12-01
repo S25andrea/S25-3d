@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>S25 3D Cube</title>
+        <link rel="stylesheet" href="styles/s25_style.css" />
+    </head>
+    <body>
+        <div class="grid">
+            <label for="default" class="btn">Default</label>
+            <label for="front-left" class="btn">Front-left</label>
+            <label for="front" class="btn">Front</label>
+            <label for="left" class="btn">Left</label>
+            <label for="top" class="btn">Top</label>
+            <label for="front-right" class="btn">Front-right</label>
+            <label for="bottom" class="btn">Bottom</label>
+            <label for="back" class="btn">Back</label>
+            <label for="right" class="btn">Right</label>
+            <label for="corner" class="btn">Corner</label>
+            <label for="reverted" class="btn">Reverted</label>
+        </div>
+        <input type="radio" name="face" id="default" />
+        <input type="radio" name="face" id="front-left" />
+        <input type="radio" name="face" id="front-right" />
+        <input type="radio" name="face" id="front" />
+        <input type="radio" name="face" id="left" />
+        <input type="radio" name="face" id="right" />
+        <input type="radio" name="face" id="top" />
+        <input type="radio" name="face" id="bottom" />
+        <input type="radio" name="face" id="back" />
+        <input type="radio" name="face" id="corner" />
+        <input type="radio" name="face" id="reverted" />
+       
+        <!--  <div id="animContainer"> </div> -->
+
+        <div class="container">
+            <div class="cube">
+                <div class="face front" id="frontContainer"> </div>
+                <div class="face right" id="rightContainer"> </div>
+                <div class="face left" id="leftContainer"> </div>
+                <!-- <div class="face back" id="backContainer"> </div> -->
+                <!-- <div class="face top" id="topContainer"> </div> -->
+                <!-- <div class="face bottom" id="bottomContainer"> </div> -->
+            </div>
+        </div>
+
+        <!-- Scripts -->
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+         <script src="scripts/script.js"></script>
+    </body>
+</html>
