@@ -105,19 +105,19 @@ body {
     perspective: 200px;
 }
 
-#reverted:hover ~ .container .cube {
+#inside:hover ~ .container .cube {
     transform: rotateX(0deg) rotateY(-00deg) translateZ(-149.5px);
 }
 
-#reverted:hover ~ .container .cube .left {
+#inside:hover ~ .container .cube .left {
     transform: rotateY(90deg) translateX(-300px) translateZ(-149.5px);
 }
 
-#reverted:hover ~ .container .cube .right {
+#inside:hover ~ .container .cube .right {
     transform: rotateY(-90deg) translateX(300px) translateZ(-149.5px);
 }
 
-#reverted:hover ~ .container {
+#inside:hover ~ .container {
     perspective: 200px;
 }
 
