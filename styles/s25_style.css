@@ -122,7 +122,7 @@ body {
 }
 
 #corner:hover ~ .container .cube {
-    transform: rotateX(0deg) rotateY(-90deg) scale3d(0.2, 0.2, 0.2);
+    transform: rotateX(0deg) rotateY(00deg) scale3d(0.2, 0.2, 0.2);
 }
 
 /* buttons */
